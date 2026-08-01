@@ -1,7 +1,28 @@
 aid: realm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realm.png
 name: Realm
-description: Realm is a company surfaced as a portfolio company of dcvc, ggv-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Realm is a consumer home-technology company that gives homeowners data-driven
+  insights about their property's value and its renovation potential. The Realm
+  platform combines public property records, permits, zoning, comparable sales,
+  and neighborhood data into personalized recommendations that show which home
+  improvement projects will add the most value, what they are likely to cost,
+  and how they affect a home's estimated worth over time. Marketed at
+  realmhome.com as "Home Renovation Planning & Home Value Insights," the product
+  is delivered as a consumer-facing web and mobile experience rather than a
+  developer platform. Realm was backed by venture investors including DCVC and
+  GGV Capital and is tracked in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/realm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Property Data
+- Home Improvement
+- Home Valuation
+- PropTech
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/realm-domain-security.yml
 - type: Website
   url: https://realmhome.com/
+- type: Blog
+  url: https://realmhome.com/blog
+- type: TermsOfService
+  url: https://realmhome.com/terms
+- type: PrivacyPolicy
+  url: https://realmhome.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
