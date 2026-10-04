@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Data
 - Home Improvement
 - Home Valuation
@@ -61,6 +61,7 @@ tags_raw:
 - Home Valuation
 - PropTech
 - Consumer
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
